@@ -16,3 +16,39 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build files
+*.o
+*.out
+*.log
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore temporary files
+*.swp
+*.bak
+
+# Ignore IDE-specific files (if using any IDEs like VSCode)
+.vscode/
+.idea/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore Docker files if you're using Docker
+docker-compose.yml
+Dockerfile
+
+# Ignore other system and IDE files
+*.sublime-project
+*.sublime-workspace
