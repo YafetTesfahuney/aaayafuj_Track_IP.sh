@@ -25,3 +25,7 @@ $ cd aaayafuj
 $ chmod +x aaayafuj_Track_IP.sh
 $ pip install -r requirements.txt
 $ bash aaayafuj_Track_IP.sh <IP_address>
+
+# You can Try this other option to run
+$ chmod +x aaayafuj_Track_IP.sh
+$ ./aaayafuj_Track_IP.sh 
