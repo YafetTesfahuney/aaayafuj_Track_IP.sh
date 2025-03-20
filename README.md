@@ -23,9 +23,21 @@ $ cd aaayafuj
 # **Install Dependencies (if applicable)*
 
 $ chmod +x aaayafuj_Track_IP.sh
-$ pip install -r requirements.txt
+$ pip install -r requirements.txt  --break-system-packages
 $ bash aaayafuj_Track_IP.sh <IP_address>
 
 # You can Try this other option to run
+
 $ chmod +x aaayafuj_Track_IP.sh
-$ ./aaayafuj_Track_IP.sh 
+$ ./aaayafuj_Track_IP.sh
+
+
+___________________________________________________________________________________________________________________________________
+git clone https://github.com/YafetTesfahuney/aaayafuj.git
+cd aaayafuj
+chmod +x aaayafuj_Track_IP.sh
+pip install -r requirements.txt  --break-system-packages
+bash aaayafuj_Track_IP.sh <
+chmod +x aaayafuj_Track_IP.sh
+./aaayafuj_Track_IP.sh 
+___________________________________________________________________________________________________________________________________
